@@ -28,3 +28,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco install git 7zip mremoteng telegram whatsapp vmware-powercli-psmodule bosh-cli vmwarevsphereclient govc kubernetes-cli docker-compose docker-desktop  kubernetes-helm vscode vscode-gitlens vscode-docker vscode-gitignore terraform
 ```
 5. Go [here](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly) and get WSL to work with docker desktop "flawlessly"
+6. Install
+```
+pip install --user pipenv
+```
